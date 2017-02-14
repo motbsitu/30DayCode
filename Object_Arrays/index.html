@@ -8,13 +8,28 @@
 
   <script>
     // start with strings, numbers and booleans
+    let age = 100;
+    let age2 = age;
+
+    console.log(age, age2);
+    age = 200;
+    console.log(age, age2);
+        //doesn't change second value
+
+
 
     // Let's say we have an array
     const players = ['Wes', 'Sarah', 'Ryan', 'Poppy'];
 
     // and we want to make a copy of it.
+    const team = players;
+
+    console.log(players, team);
 
     // You might think we can just do something like this:
+    // team[3] = 'Lux';
+      //adds to end of team array for team & players
+    //team is reference to player, will update original array
 
     // however what happens when we update that array?
 
@@ -25,26 +40,72 @@
     // Why? It's because that is an array reference, not an array copy. They both point to the same array!
 
     // So, how do we fix this? We take a copy instead!
+    const team2 = players.slice();
 
     // one day
 
     // or create a new array and concat the old one in
+    const team3 = [].concat(players);
 
     // or use the new ES6 Spread
+    const team4 = [...players]
+    team4[3] = "Julie";
+    console.log(team4);
+
+
+    const team5 = Array.from(players);
 
     // now when we update it, the original one isn't changed
 
     // The same thing goes for objects, let's say we have a person object
-
     // with Objects
+    const person = {
+      name: "Julie",
+      age: "80"
+    };
 
-    // and think we make a copy:
+    // and think we make a copy: only made a reference & will update original
+    // const captain = person;
+    // captain.number = 99;
 
     // how do we take a copy instead?
+    const cap2 = Object.assign({}, person, {number: 99});
+    console.log('cap2', cap2);
+    console.log('person', person);
 
     // We will hopefully soon see the object ...spread
 
     // Things to note - this is only 1 level deep - both for Arrays and Objects. lodash has a cloneDeep method, but you should think twice before using it.
+    const person2 = {
+      name: "Julie",
+      age: 80,
+      social: {
+        twitter: "motbsitu",
+        linkedin: "juliesmike"
+      }
+    };
+
+    console.log('person2', person2);
+
+    const dev = Object.assign({}, person2);
+    console.log('dev', dev);
+
+    dev.name = "Julie S Mike";
+
+    console.log('dev after', dev);
+    console.log('person2', person2);
+
+    dev.social.twitter = "@something";
+
+    console.log('dev.social after', dev.social);
+    console.log('person2.social after', person2.social);
+
+    //cloneDeep is an option to actually make a clone
+
+    //or stringify (poor mans deep clone)
+        //turn back to object     turn into string
+    const dev2 = JSON.parse(JSON.stringify(person2));
+
 
   </script>
 
