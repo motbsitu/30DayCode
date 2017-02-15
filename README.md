@@ -12,3 +12,8 @@ Remaining 18 days
 - JavaScript reference versus copy
 - Strings, booleans, objects and nested objects
 - clone
+
+##Local Storage and Event Delegation
+- Event Delegation - Pick the parent input to pass on to child
+- stringify and parse to create local storage
+- find the index of items
