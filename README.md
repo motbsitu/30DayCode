@@ -8,6 +8,7 @@ Remaining 18 days
 - Window.scrollY
 - add class when scrolled
 
+
 ##Objects and Arrays - Reference vs. Copy
 - JavaScript reference versus copy
 - Strings, booleans, objects and nested objects
