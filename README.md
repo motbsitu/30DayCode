@@ -18,3 +18,7 @@ Remaining 18 days
 - Event Delegation - Pick the parent input to pass on to child
 - stringify and parse to create local storage
 - find the index of items
+
+##Sorting Band Names without Articles
+- function to replace names without specified Articles
+- .map with .join to create list to display on DOM
