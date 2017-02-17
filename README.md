@@ -22,3 +22,7 @@ Remaining 18 days
 ##Sorting Band Names without Articles
 - function to replace names without specified Articles
 - .map with .join to create list to display on DOM
+
+##CSS Text Shadow/Mouse Move effect
+- use x & y coordinates to track mouse Move
+- target child elements
