@@ -26,3 +26,8 @@ Remaining 18 days
 ##CSS Text Shadow/Mouse Move effect
 - use x & y coordinates to track mouse Move
 - target child elements
+
+##Tally String Times with Reduce
+- use map to find dataset
+- map to split
+- reduce to break down hours minutes seconds
