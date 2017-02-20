@@ -31,3 +31,7 @@ Remaining 18 days
 - use map to find dataset
 - map to split
 - reduce to break down hours minutes seconds
+
+##Webcam
+- work with filters, rbg values, image.data, canvas
+- data to URL to save images
