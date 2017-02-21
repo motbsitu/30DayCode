@@ -35,3 +35,9 @@ Remaining 18 days
 ##Webcam
 - work with filters, rbg values, image.data, canvas
 - data to URL to save images
+
+##Native Speech Recognition
+- use built in browser tools for speech recognition
+- event listener for that tool
+- turn result into array and map to get results
+- added listener for the word CAT (magic word is stop) :)
