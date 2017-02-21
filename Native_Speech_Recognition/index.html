@@ -14,7 +14,7 @@
     window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
     const recognition = new SpeechRecognition();
-
+//so don't have to wait until done speaking
     recognition.interimResults = true;
 
     let p = document.createElement('p');
@@ -35,9 +35,6 @@
         if(e.results[0].isFinal){
           p = document.createElement('p');
           words.appendChild(p);
-
-
-
         }
         console.log(transcript);
 
@@ -57,18 +54,15 @@
             p = document.createElement('p');
             words.appendChild(p);
 
-
             meowMix.pause();
           }
        }
-
     });
 
 //start it again after finish speaking
     recognition.addEventListener('end', recognition.start);
 
     recognition.start();
-
 
   </script>
 
