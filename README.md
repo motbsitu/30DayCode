@@ -44,4 +44,5 @@ Remaining 18 days
 
 ##Geolocation with Speed and coordinates
 - use Xcode for simulator (select simulator from open developer tools, use external HTTPS url)
+- debug location in Xcode simulator to simulate driving, biking, etc.
 - open developer tools in safari
