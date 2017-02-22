@@ -41,3 +41,7 @@ Remaining 18 days
 - event listener for that tool
 - turn result into array and map to get results
 - added listener for the word CAT (magic word is stop) :)
+
+##Geolocation with Speed and coordinates
+- use Xcode for simulator (select simulator from open developer tools, use external HTTPS url)
+- open developer tools in safari
