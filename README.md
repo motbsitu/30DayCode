@@ -46,3 +46,7 @@ Remaining 18 days
 - use Xcode for simulator (select simulator from open developer tools, use external HTTPS url)
 - debug location in Xcode simulator to simulate driving, biking, etc.
 - open developer tools in safari
+
+##Follow Links
+- getBoundingClientRect to find coordinates of mouse position
+- pull out coordinates width, height, top, left to resize highlight
