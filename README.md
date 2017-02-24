@@ -50,3 +50,6 @@ Remaining 18 days
 ##Follow Links
 - getBoundingClientRect to find coordinates of mouse position
 - pull out coordinates width, height, top, left to resize highlight
+
+##Speech-Synthesis
+- Use browser speechSynthesis method
