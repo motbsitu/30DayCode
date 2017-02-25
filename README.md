@@ -4,11 +4,10 @@ Remaining 18 days
 
 
 ##Slide on Scroll
+http://codepen.io/motbsitu/pen/egxNqN
 - Slide in images on scroll
 - Window.scrollY
 - add class when scrolled
-http://codepen.io/motbsitu/pen/egxNqN
-
 
 ##Objects and Arrays - Reference vs. Copy
 - JavaScript reference versus copy
@@ -16,10 +15,10 @@ http://codepen.io/motbsitu/pen/egxNqN
 - clone
 
 ##Local Storage and Event Delegation
+http://codepen.io/motbsitu/pen/pRYYGv
 - Event Delegation - Pick the parent input to pass on to child
 - stringify and parse to create local storage
 - find the index of items
-http://codepen.io/motbsitu/pen/pRYYGv
 
 ##Sorting Band Names without Articles
 - function to replace names without specified Articles
@@ -50,17 +49,17 @@ http://codepen.io/motbsitu/pen/pRYYGv
 - open developer tools in safari
 
 ##Follow Links
+http://codepen.io/motbsitu/pen/dvyRxx
 - getBoundingClientRect to find coordinates of mouse position
 - pull out coordinates width, height, top, left to resize highlight
-http://codepen.io/motbsitu/pen/dvyRxx
 
 ##Speech-Synthesis
-- Use browser speechSynthesis method
 http://codepen.io/motbsitu/pen/gmbrqd
+- Use browser speechSynthesis method
 
 ##Sticky Nav Bar
+http://codepen.io/motbsitu/pen/evmrPQ
 - add class when scrollY is greater than or equal to top of nav
 - be sure to account height of nav in body padding
 - slide in logo when nav is fixed
 - scale up body when nav is fixed
-http://codepen.io/motbsitu/pen/evmrPQ
