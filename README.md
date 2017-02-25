@@ -7,6 +7,7 @@ Remaining 18 days
 - Slide in images on scroll
 - Window.scrollY
 - add class when scrolled
+http://codepen.io/motbsitu/pen/egxNqN
 
 
 ##Objects and Arrays - Reference vs. Copy
@@ -18,6 +19,7 @@ Remaining 18 days
 - Event Delegation - Pick the parent input to pass on to child
 - stringify and parse to create local storage
 - find the index of items
+http://codepen.io/motbsitu/pen/pRYYGv
 
 ##Sorting Band Names without Articles
 - function to replace names without specified Articles
@@ -50,6 +52,8 @@ Remaining 18 days
 ##Follow Links
 - getBoundingClientRect to find coordinates of mouse position
 - pull out coordinates width, height, top, left to resize highlight
+http://codepen.io/motbsitu/pen/dvyRxx
 
 ##Speech-Synthesis
 - Use browser speechSynthesis method
+http://codepen.io/motbsitu/pen/gmbrqd
