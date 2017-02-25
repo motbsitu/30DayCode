@@ -57,3 +57,10 @@ http://codepen.io/motbsitu/pen/dvyRxx
 ##Speech-Synthesis
 - Use browser speechSynthesis method
 http://codepen.io/motbsitu/pen/gmbrqd
+
+##Sticky Nav Bar
+- add class when scrollY is greater than or equal to top of nav
+- be sure to account height of nav in body padding
+- slide in logo when nav is fixed
+- scale up body when nav is fixed
+http://codepen.io/motbsitu/pen/evmrPQ
