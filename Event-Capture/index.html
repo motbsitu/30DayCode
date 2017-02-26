@@ -37,8 +37,33 @@
   }
 </style>
 
-<button></button>
+<button>This Button</button>
 <script>
+  const divs = document.querySelectorAll('div');
+  const button = document.querySelector('button');
+
+
+  function logText(e){
+    console.log(this.classList.value);
+    //to stop bubble up - capture has to be false
+    // e.stopPropagation();
+  }
+  //if click on inner most div, will log text for all
+  //browser triggers capture top down, then bubbles up firing click events
+
+  // document.body.addEventListener('click', logText);
+  divs.forEach(div => div.addEventListener('click', logText,{
+    //run function on way down - true, run on the way up true
+    capture: true,
+    // once: true  //unbinds event to run only once
+  }));
+
+  button.addEventListener('click', () => {
+    console.log('button clicked');
+  }, {
+    //add this to only allow button to be clicked once - store checkouts, etc.
+    once: true
+  });
 
 </script>
 </body>

@@ -63,3 +63,7 @@ http://codepen.io/motbsitu/pen/evmrPQ
 - be sure to account height of nav in body padding
 - slide in logo when nav is fixed
 - scale up body when nav is fixed
+
+##Event Capture
+- Event listener
+- propagation, bubbling, once
