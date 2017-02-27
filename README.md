@@ -67,3 +67,7 @@ http://codepen.io/motbsitu/pen/evmrPQ
 ##Event Capture
 - Event listener
 - propagation, bubbling, once
+
+##Nav Dropdown - transformed
+- Use JS and CSS to create animated Nav bar dropdown
+- work with getBoundingClientRect to get coordinates
