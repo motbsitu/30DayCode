@@ -71,3 +71,7 @@ http://codepen.io/motbsitu/pen/evmrPQ
 ##Nav Dropdown - transformed
 - Use JS and CSS to create animated Nav bar dropdown
 - work with getBoundingClientRect to get coordinates
+
+##Click and Drag to Scroll
+- addEventListener to  mousedown, mouseleave, mouseup, mousemove  
+- find pageX starting point to determine
