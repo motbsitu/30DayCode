@@ -73,5 +73,9 @@ http://codepen.io/motbsitu/pen/evmrPQ
 - work with getBoundingClientRect to get coordinates
 
 ##Click and Drag to Scroll
+http://codepen.io/motbsitu/pen/xqwJPR
 - addEventListener to  mousedown, mouseleave, mouseup, mousemove  
 - find pageX starting point to determine
+
+##Video Speed Controller
+- mouse event to control visual and playbackRate
