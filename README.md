@@ -79,3 +79,10 @@ http://codepen.io/motbsitu/pen/xqwJPR
 
 ##Video Speed Controller
 - mouse event to control visual and playbackRate
+
+##Countdown Timer
+http://codepen.io/motbsitu/pen/yMOOVo
+- use Date methods and setInterval to get remaining milliseconds
+- translate to minutes and seconds
+- display on DOM
+- Create buttons with set times and minutes entry input
