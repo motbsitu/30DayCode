@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-size: 10px;
-  background: #E8FF8A;
+  background: black;
 }
 
 *, *:before, *:after {
@@ -15,6 +15,7 @@ body {
 }
 
 h1 {
+  color: white;
   text-align: center;
   font-size: 10rem;
   line-height:1;
@@ -55,7 +56,7 @@ button {
 
 .hole:after {
   display: block;
-  background: url(dirt.svg) bottom center no-repeat;
+  background: url("http://publicdomainvectors.org/photos/misc-proto-dirt-pile.png") bottom center no-repeat;
   background-size:contain;
   content:'';
   width: 100%;
@@ -66,7 +67,7 @@ button {
 }
 
 .mole {
-  background:url('mole.svg') bottom center no-repeat;
+  background:url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTV6rxounD7GqfSaXE8Afz6jpTvUhSrYzkanzh142TfhwtihurZtw') bottom center no-repeat;
   background-size:60%;
   position: absolute;
   top: 100%;

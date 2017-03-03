@@ -88,6 +88,7 @@ http://codepen.io/motbsitu/pen/yMOOVo
 - Create buttons with set times and minutes entry input
 
 ##Whack A Mole
+http://codepen.io/motbsitu/full/yMOmNm/
 - whack a mole game using setTimeout, Math.random
 - use isTrusted to confirm legitimate click
 - add and remove classes.
