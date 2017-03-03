@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-size: 10px;
-  background: #ffc600;
+  background: #E8FF8A;
 }
 
 *, *:before, *:after {
@@ -11,7 +11,7 @@ html {
 body {
   padding: 0;
   margin:0;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Baloo', cursive;
 }
 
 h1 {
@@ -19,6 +19,17 @@ h1 {
   font-size: 10rem;
   line-height:1;
   margin-bottom: 0;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 .score {

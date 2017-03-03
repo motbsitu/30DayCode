@@ -86,3 +86,8 @@ http://codepen.io/motbsitu/pen/yMOOVo
 - translate to minutes and seconds
 - display on DOM
 - Create buttons with set times and minutes entry input
+
+##Whack A Mole
+- whack a mole game using setTimeout, Math.random
+- use isTrusted to confirm legitimate click
+- add and remove classes.
